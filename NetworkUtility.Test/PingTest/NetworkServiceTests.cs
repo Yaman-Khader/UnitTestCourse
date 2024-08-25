@@ -54,7 +54,7 @@ namespace NetworkUtility.Test.PingTest
 
 
             //Assert
-            Assert.Equal(1, result);
+            Assert.Equal(expected, result);
 
             //using Fluent assert 
             //result.Should().Be(expected);
